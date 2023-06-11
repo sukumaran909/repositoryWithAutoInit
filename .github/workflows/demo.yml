@@ -1,0 +1,13 @@
+name: First CICD
+
+on:
+  push
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - run: echo "Hello, friend. Hello, friend?"
+      
+    
