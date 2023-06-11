@@ -9,5 +9,15 @@ jobs:
     
     steps:
     - run: echo "Hello, friend. Hello, friend?"
+  
+  second-job:
+    runs-on: ubuntu-lates
+    
+    steps:
+    - name: Checking out the repository...
+      uses: actions/checkout@v2
+    
+    - name: Displaying the contents...
+      run: ls -l; uname -a; whoami
       
     
