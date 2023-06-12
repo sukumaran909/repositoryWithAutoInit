@@ -36,5 +36,12 @@ jobs:
     
     - name: Displaying Ip configurations...
       run: ifconfig
+  
+  fourth-job:
+    runs-on: minatoRunner1
+    
+    steps:
+    - name: Minato's server config...
+      run: ipconfig
       
     
