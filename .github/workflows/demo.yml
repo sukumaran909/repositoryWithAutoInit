@@ -32,6 +32,6 @@ jobs:
       run: cd /; ls -l
     
     - name: Displaying Ip configurations...
-      run: ip -a
+      run: ifconfig
       
     
