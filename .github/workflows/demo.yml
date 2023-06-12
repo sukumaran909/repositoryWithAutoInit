@@ -43,5 +43,7 @@ jobs:
     steps:
     - name: Minato's server config...
       run: ipconfig
+    - name: Clement's server config...
+      run: ipconfig
       
     
