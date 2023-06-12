@@ -20,6 +20,9 @@ jobs:
     - name: Displaying the contents...
       run: pwd; ls -l; uname -a; whoami
       
+    - name: Displayig Ip configurations...
+      run: ifconfig
+      
       
   third-job:
     runs-on: ubuntu-latest
