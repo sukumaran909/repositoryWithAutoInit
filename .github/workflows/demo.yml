@@ -11,7 +11,7 @@ jobs:
     - run: echo "Hello, friend. Hello, friend?"
   
   second-job:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checking out the repository...
