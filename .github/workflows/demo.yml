@@ -20,4 +20,18 @@ jobs:
     - name: Displaying the contents...
       run: ls -l; uname -a; whoami
       
+      
+  third-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Displaying current directory...
+      run: pwd
+    
+    - name: Changing the work directory to / ...
+      run: cd /; ls -l
+    
+    - name: Displaying Ip configurations...
+      run: ip -a
+      
     
