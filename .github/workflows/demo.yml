@@ -38,7 +38,7 @@ jobs:
       run: ifconfig
   
   fourth-job:
-    runs-on: minatoRunner1
+    runs-on: self-hosted
     
     steps:
     - name: Minato's server config...
